@@ -5,6 +5,7 @@ class BrowsingFacade
 
   def visit(url:)
     @override_status = nil
+    cleanup
     browser.go_to(url)
   rescue Ferrum::PendingConnectionsError,
          Ferrum::TimeoutError,

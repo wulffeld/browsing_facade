@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    browsing_facade (1.0.0)
+    browsing_facade (1.1.0)
       ferrum
 
 GEM
